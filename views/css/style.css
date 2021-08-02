@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  
+  background-image:linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .9)), url(img/cover.jpeg);
+  background-position: fixed;
+  background-size: cover;
+  box-shadow: 5px 7px 25px #999;
+  height: 100vh;
+  -webkit-background-size:cover;
+    }
+
+.form-control
+{
+  background: transparent; 
+  border-radius: 0px;
+  border: 0px;
+  border-bottom: 2px solid gray;
+  height: 40px
+  padding:20px;
+  font-size: 20px;
+  color: white;
+}
+.card
+{
+  background-color: #434e5a;
+  opacity: .5;
+  padding: 0 19px;
+  border-radius:10px ;
+}
+h3 
+{
+  margin-top: 20px;
+}
